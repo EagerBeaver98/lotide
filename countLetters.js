@@ -5,6 +5,8 @@ const assertEqual = function(actual, expected) {
     console.log(`Assertation Failed: ${actual} !== ${expected}`);
   }
 };
+assertEqual;
+
 
 const countLetters = function(sentence) {
   const answer = {};
@@ -13,6 +15,7 @@ const countLetters = function(sentence) {
       answer[letter] += 1;
     } else if (letter === ' ') {
       let x = 1;
+      x;
     } else {
       answer[letter] = 1;
     }

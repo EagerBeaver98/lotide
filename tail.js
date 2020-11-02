@@ -1,12 +1,9 @@
-const assertEqual = require('./assertEqual');
 
 const tail = function(array) {
   let temp = array.slice(1);
   return temp;
 };
 
-const result = tail(["Hello", "Lighthouse", "Labs"]);
-assertEqual(result, ["Lighthouse", "Labs"]);
 
 // // Test Case: Check the original array
 // const words = ["Yo Yo", "Lighthouse", "Labs"];

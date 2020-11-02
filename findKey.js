@@ -5,6 +5,7 @@ const assertEqual = function(actual, expected) {
     console.log(`Assertation Failed: ${actual} !== ${expected}`);
   }
 };
+assertEqual;
 
 const findKey = function(object, callback) {
   const temp = Object.keys(object);

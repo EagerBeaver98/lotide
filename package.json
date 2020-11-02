@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@eagerbeaver/lotide",
   "version": "1.0.0",
-  "description": "Lotide project",
+  "description": "Lotide project for John Oke",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "mocha",
     "test"
   ],
-  "author": "EagerBeaver98",
+  "author": "eagerbeaver98",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EagerBeaver98/lotide/issues"
